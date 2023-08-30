@@ -1,0 +1,165 @@
+body {
+    background-image: url(Background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header{
+    background-color: black;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  background-color: #0f0f0f;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+  height: 50px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+  transition: color 0.2s ease-in-out;
+}
+
+nav a:hover {
+  color: #007bff;
+}
+
+.new-page {
+  display: flex;
+  align-items: center;
+}
+
+.new-page img {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.new-page a {
+  color: #007bff;
+  font-size: 16px;
+  font-weight: bold;
+  transition: color 0.2s ease-in-out;
+}
+
+.new-page a:hover {
+  color: #0056b3;
+}
+
+.text1{
+    position: absolute;
+  top: 40px;
+  right: 30px;
+  color: aliceblue;
+}
+
+.text2{
+    position: absolute;
+    top: 20px;
+  
+}
+
+.text3{
+    position: absolute;
+    bottom: 30px;
+    top: 20px;
+    right: 30px;
+    color: aliceblue;
+}
+
+.text4{
+    align-items: centers;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+  }
+  
+  header img {
+    height: 50px;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #333;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  nav a:hover {
+    color: #007bff;
+  }
+  
+  .new-page {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  
+  .new-page img {
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .new-page a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .new-page a:hover {
+    color: #0056b3;
+  }
+  
+  .new-page p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+  }
